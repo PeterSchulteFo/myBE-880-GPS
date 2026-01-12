@@ -1,2 +1,2 @@
 # myBE-880-GPS
-GPS Arduino Mega 2560PLUS+BE-880+OLED (SSD1309 2.42" SPI)+HDG
+Die Software realisiert ein GPS- und Kompass-basiertes Navigationssystem auf einem Arduino-kompatiblen Mikrocontroller. GPS-Daten werden über UART eingelesen, ausgewertet und zusammen mit Kompassdaten (HMC5883L oder QMC5883L, automatische Erkennung) verarbeitet. Die aktuellen Navigationsinformationen wie Position, Zeit, Geschwindigkeit, Höhe, Satellitenanzahl und Kurs werden auf einem SSD1309-OLED angezeigt. Parallel dazu erzeugt die Software standardkonforme NMEA-0183-Datensätze (GNRMC, GNGGA und HCHDM) und gibt diese über die serielle Schnittstelle aus. Das System eignet sich zur Integration in externe Navigations-, Logging- oder Anzeigesysteme.
